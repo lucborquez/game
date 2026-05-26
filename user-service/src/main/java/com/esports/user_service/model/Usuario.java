@@ -35,7 +35,7 @@ public class Usuario {
 
     //true=activo / false=desactivado
     @Column(nullable = false)
-    private boolean estado = true;
+    private Boolean estado = true;
 
     @Column(nullable = false)
     private LocalDate fechaRegistro;
