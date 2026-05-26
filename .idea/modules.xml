@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/game.iml" filepath="$PROJECT_DIR$/.idea/game.iml" />
-      <module fileurl="file://$PROJECT_DIR$/match-service/match-service.iml" filepath="$PROJECT_DIR$/match-service/match-service.iml" />
     </modules>
   </component>
 </project>
