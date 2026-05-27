@@ -22,6 +22,14 @@
         </processorPath>
         <module name="result-service" />
       </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.46/a5cfe99fdf320e84955ef653f2ce1bf789d11385/lombok-1.18.46.jar" />
+        </processorPath>
+        <module name="sanction-service.test" />
+        <module name="sanction-service.main" />
+      </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
@@ -29,6 +37,9 @@
       <module name="match-service" options="-parameters" />
       <module name="registration-service" options="-parameters" />
       <module name="result-service" options="-parameters" />
+      <module name="sanction-service" options="-parameters" />
+      <module name="sanction-service.main" options="-parameters" />
+      <module name="sanction-service.test" options="-parameters" />
     </option>
   </component>
 </project>
