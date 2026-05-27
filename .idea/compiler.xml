@@ -27,14 +27,17 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.46/a5cfe99fdf320e84955ef653f2ce1bf789d11385/lombok-1.18.46.jar" />
         </processorPath>
-        <module name="sanction-service.test" />
-        <module name="sanction-service.main" />
+        <module name="ranking-service.test" />
+        <module name="ranking-service.main" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="match-service" options="-parameters" />
+      <module name="ranking-service" options="-parameters" />
+      <module name="ranking-service.main" options="-parameters" />
+      <module name="ranking-service.test" options="-parameters" />
       <module name="registration-service" options="-parameters" />
       <module name="result-service" options="-parameters" />
       <module name="sanction-service" options="-parameters" />
