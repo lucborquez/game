@@ -5,101 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18313db5-08aa-40ca-b561-9da02a1f92fc" name="Changes" comment="se corrigieron errores en los microservicios ranking-service y sanction-service">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ranking-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/ranking_service/controller/RankingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/ranking_service/dto/RankingRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/ranking_service/dto/RankingResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/ranking_service/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/ranking_service/model/Ranking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/ranking_service/service/RankingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration-service/src/main/java/com/esports/registration_service/service/InscripcionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanction-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanction-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanction-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanction-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/sanction_service/controller/SancionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/sanction_service/dto/SancionRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/sanction_service/dto/SancionResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/sanction_service/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/sanction_service/exception/SancionNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/sanction_service/model/Sancion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/sanction_service/repository/SancionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/sanction_service/service/SancionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/game.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esportsArena.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-service/src/main/java/com/esports/game_service/controller/JuegoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/src/main/java/com/esports/game_service/controller/JuegoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-service/src/main/java/com/esports/game_service/dto/JuegoRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/src/main/java/com/esports/game_service/dto/JuegoRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-service/src/main/java/com/esports/manager/match/controllers/PartidaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-service/src/main/java/com/esports/manager/match/models/Partida.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-service/src/main/java/com/esports/manager/match/models/dto/PartidaDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-service/src/main/java/com/esports/manager/match/repositories/PartidaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-service/src/main/java/com/esports/manager/match/services/PartidaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-service/src/main/java/com/esports/match_service/MatchServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-service/src/main/java/com/esports/match_service/MatchServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-service/src/main/java/com/esports/match_service/dto/PartidaResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-service/src/main/java/com/esports/match_service/dto/PartidaResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranking-service/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranking-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranking-service/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranking-service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranking-service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranking-service/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranking-service/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranking-service/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/manager/ranking/RankingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/ranking_service/RankingServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/manager/ranking/controllers/RankingController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/manager/ranking/exceptions/RankingNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/ranking_service/exception/RankingNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/manager/ranking/models/Ranking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/manager/ranking/models/dto/RankingDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/manager/ranking/repositories/RankingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/ranking_service/repository/RankingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/manager/ranking/services/RankingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranking-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranking-service/src/test/java/com/esports/manager/ranking/RankingServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/src/test/java/com/esports/ranking_service/RankingServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration-service/src/main/java/com/esports/manager/registration/controllers/InscripcionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration-service/src/main/java/com/esports/manager/registration/exceptions/InscripcionNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration-service/src/main/java/com/esports/manager/registration/models/Inscripcion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration-service/src/main/java/com/esports/manager/registration/models/dto/InscripcionDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration-service/src/main/java/com/esports/manager/registration/repositories/InscripcionRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration-service/src/main/java/com/esports/manager/registration/services/InscripcionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration-service/src/main/java/com/esports/registration_service/RegistrationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/registration-service/src/main/java/com/esports/registration_service/RegistrationServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/registration-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result-service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result-service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result-service/src/main/java/com/esports/manager/result/ResultServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result-service/src/main/java/com/esports/manager/result/exceptions/ResultadoNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result-service/src/main/java/com/esports/manager/result/models/Resultado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result-service/src/main/java/com/esports/manager/result/models/dto/ResultadoDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result-service/src/main/java/com/esports/manager/result/repositories/ResultadoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result-service/src/main/java/com/esports/manager/result/services/ResultadoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result-service/src/test/java/com/esports/manager/result/ResultServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanction-service/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/sanction-service/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanction-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/sanction-service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanction-service/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanction-service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanction-service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanction-service/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanction-service/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanction-service/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/manager/sanction/SanctionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/sanction_service/SanctionServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/manager/sanction/controllers/SancionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/manager/sanction/exceptions/SancionNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/manager/sanction/models/Sancion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/manager/sanction/models/dto/SancionDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/manager/sanction/repositories/SancionRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/manager/sanction/services/SancionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanction-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sanction-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanction-service/src/test/java/com/esports/manager/sanction/SanctionServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanction-service/src/test/java/com/esports/sanction_service/SanctionServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,49 +80,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AuthServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.GameServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MatchServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.RankingServiceApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.RegistrationServiceApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.SanctionServiceApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.TeamServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.TournamentServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.UserServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SuperUsuario/Desktop/EsportsArena&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.AuthServiceApplication.executor": "Run",
+    "Spring Boot.GameServiceApplication.executor": "Run",
+    "Spring Boot.MatchServiceApplication.executor": "Run",
+    "Spring Boot.RankingServiceApplication (1).executor": "Run",
+    "Spring Boot.RegistrationServiceApplication (1).executor": "Run",
+    "Spring Boot.ResultServiceApplication (1).executor": "Run",
+    "Spring Boot.SanctionServiceApplication (1).executor": "Run",
+    "Spring Boot.TeamServiceApplication.executor": "Run",
+    "Spring Boot.TournamentServiceApplication.executor": "Run",
+    "Spring Boot.UserServiceApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/SuperUsuario/Desktop/EsportsArena",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -314,6 +229,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ResultServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="result-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esports.resultservice.ResultServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ResultServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="result-service" />
@@ -380,7 +303,7 @@
       <workItem from="1779857860971" duration="6079000" />
       <workItem from="1779896487756" duration="2728000" />
       <workItem from="1779905394495" duration="447000" />
-      <workItem from="1779915759698" duration="477000" />
+      <workItem from="1779915759698" duration="1777000" />
     </task>
     <task id="LOCAL-00001" summary="Configuración inicial del microservicio registation-service&#10;&#10;- Establecer nombre de aplicación como registration-service&#10;- Definir puerto 8086 para evitar conflictos&#10;- Configurar conexión a base de datos MySQL (db_registration_service)&#10;- Habilitar configuración JPA/Hibernate para actualización automática de esquema">
       <option name="closed" value="true" />
@@ -502,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779898453320</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="se corrigieron errores en los microservicios ranking-service y sanction-service">
+      <option name="closed" value="true" />
+      <created>1779916545662</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1779916545662</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
