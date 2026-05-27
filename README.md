@@ -9,22 +9,22 @@ Lucas Borquez
 Jhon Olivares
 
 ## Tecnologías
-java 21
+java 26
 
 
 ## Microservicios
 |Servicio	|Puerto	|Base de datos|	Responsabilidad|
 |---|---|---|---|
-|user-service|8001|	user_service_db	|Identidades roles y estados de cuenta|
-|game-service|8002|	game_service_db	|Catálogo de videojuegos y modalidades|
-|team-service|8003|	team_service_db	|Equipos membresías y capitanes|
-|tournament-service|8004|	tournament_service_db	|Motor de torneos y control de estados|
-|registration-service|8005|	registration_service_db|	Inscripciones con validación de sanciones|
-|match-service|8006|	match_service_db	|Programación de partidas y brackets|
-|result-service|8007|	result_service_db	|Registro y validación de resultados|
+|user-service|8082|	user_service_db	|Identidades roles y estados de cuenta|cambiado---
+|game-service|8081|	game_service_db	|Catálogo de videojuegos y modalidades| cambiado---
+|team-service|8084|	team_service_db	|Equipos membresías y capitanes|cambiado---
+|tournament-service|8085|	tournament_service_db	|Motor de torneos y control de estados|--cambiado
+|registration-service|8086|	registration_service_db|	Inscripciones con validación de sanciones|cambiado---
+|match-service|8087|	match_service_db	|Programación de partidas y brackets| cambiado----
+|result-service|8088|	result_service_db	|Registro y validación de resultados| cambiado ---
 |ranking-service|8008|	ranking_service_db|	Cálculo de posiciones y estadísticas|
-|sanction-service|8009|	sanction_service_db|	Sanciones y sistema de Fair Play|
-|notification-service|8010|	notification_service_db|	Notificaciones internas del sistema|
+|sanction-service|8090|	sanction_service_db|	Sanciones y sistema de Fair Play|---cambiado
+|auth-service| 8083|auth-service_db|Administración de perfiles de usuario y roles del sistema.|cambiado---
 
 ## Como ejecuturar
 (pendiente)
@@ -39,44 +39,16 @@ java 21
 7. Crear partida           -> match-service  (valida inscripciones)
 8. Registrar resultado     -> result-service
 9. Consultar ranking       -> ranking-service
-10. Ver notificaciones     -> notification-service
+10. Crear sancion(si es neseario)
 
 
+## 1. Capa de Modelo y Anotaciones
+Se utiliza el ecosistema de Spring Data JPA y Lombok para maximizar la productividad y garantizar la integridad de los datos:
 
+Lombok: @Data, @AllArgsConstructor, @NoArgsConstructor, @Builder y @Getter/@Setter para reducir el código redundante.
+
+JPA/Hibernate: @Entity, @Table, @Id, @GeneratedValue(strategy = GenerationType.IDENTITY) y @Column para el mapeo relacional preciso.
+
+Jakarta Validation: @NotBlank, @NotNull, @Positive y @Size en los DTOs para la validación de entrada de datos.
 ## Regla de negocio
-User-service - 8001
-RolDescripcionADMINISTRADORConfigura juegos y torneosORGANIZADORGestiona partidas y resultadosJUGADORParticipa en equipos y torneos
 
-Usuario INACTIVO o SANCIONADO no puede competir ni inscribirse.
-
-Team Service — 8003
-El capitan debe existir y estar ACTIVO en user-service antes de crear el equipo.
-
-Equipo INACTIVO no puede inscribirse en ningun torneo.
-
-Tournament Service — 8004
-BORRADOR -> ABIERTO -> EN_CURSO -> FINALIZADO
-
-No se modifican reglas criticas con torneo en curso. La fecha de inicio debe ser posterior al cierre de inscripciones.
-
-Registration Service — 8005
-Validaciones antes de inscribir:
-
-Torneo en estado ABIERTO
-Cupos disponibles
-Sin sancion activa bloqueante
-Sin inscripcion duplicada en el mismo torneo
-
-Sanction Service — 8009
-SeveridadEfectoBAJASolo advertenciaMEDIARestriccion parcialALTABloqueo total de inscripciones
-
-Sancion expirada no bloquea inscripciones futuras.
-
-
-Ranking Service — 8008
-
-Solo resultados con estado validado impactan el ranking. Las posiciones se recalculan automaticamente ante cada cambio de puntos.
-
-
-Pendientes
-ModuloDescripcionresult-serviceValidacion automatica de discrepancias en puntajesranking-serviceRecalculo masivo al cerrar torneo por abandononotification-serviceIntegracion con servicios de correo externossanction-serviceExpiracion automatica de sanciones por fecha
