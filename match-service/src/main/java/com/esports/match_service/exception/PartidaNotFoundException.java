@@ -1,8 +1,6 @@
-package com.esports.manager.match.exceptions;
+package com.esports.match_service.exception;
 
 public class PartidaNotFoundException extends RuntimeException {
-
-    //mensaje de ERROR con el id de LA PARTIDA NO ENCONTRADA
     public PartidaNotFoundException(Long id) {
         super("Partida no encontrada con ID: " + id);
     }
