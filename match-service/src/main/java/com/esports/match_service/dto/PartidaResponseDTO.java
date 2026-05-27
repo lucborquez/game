@@ -12,5 +12,4 @@ public class PartidaResponseDTO {
     private String ronda;
     private String fechaHora;
     private String estado;
-
 }

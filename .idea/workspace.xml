@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18313db5-08aa-40ca-b561-9da02a1f92fc" name="Changes" comment="se corrigieron errores en los microservicios ranking-service y sanction-service">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ranking-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/ranking_service/controller/RankingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/ranking_service/dto/RankingRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/ranking_service/dto/RankingResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/ranking_service/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/ranking_service/model/Ranking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/ranking_service/service/RankingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration-service/src/main/java/com/esports/registration_service/service/InscripcionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanction-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanction-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanction-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanction-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/sanction_service/controller/SancionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/sanction_service/dto/SancionRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/sanction_service/dto/SancionResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/sanction_service/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/sanction_service/exception/SancionNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/sanction_service/model/Sancion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/sanction_service/repository/SancionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/sanction_service/service/SancionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/game.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esportsArena.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-service/src/main/java/com/esports/game_service/controller/JuegoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/src/main/java/com/esports/game_service/controller/JuegoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-service/src/main/java/com/esports/game_service/dto/JuegoRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/src/main/java/com/esports/game_service/dto/JuegoRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/match-service/src/main/java/com/esports/manager/match/controllers/PartidaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/match-service/src/main/java/com/esports/manager/match/models/Partida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/match-service/src/main/java/com/esports/manager/match/models/dto/PartidaDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/match-service/src/main/java/com/esports/manager/match/repositories/PartidaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/match-service/src/main/java/com/esports/manager/match/services/PartidaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/match-service/src/main/java/com/esports/match_service/MatchServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-service/src/main/java/com/esports/match_service/MatchServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/match-service/src/main/java/com/esports/match_service/dto/PartidaResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/match-service/src/main/java/com/esports/match_service/dto/PartidaResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranking-service/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranking-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranking-service/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranking-service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranking-service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranking-service/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranking-service/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranking-service/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/manager/ranking/RankingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/ranking_service/RankingServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/manager/ranking/controllers/RankingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/manager/ranking/exceptions/RankingNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/ranking_service/exception/RankingNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/manager/ranking/models/Ranking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/manager/ranking/models/dto/RankingDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/manager/ranking/repositories/RankingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/ranking_service/repository/RankingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranking-service/src/main/java/com/esports/manager/ranking/services/RankingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranking-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranking-service/src/test/java/com/esports/manager/ranking/RankingServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/src/test/java/com/esports/ranking_service/RankingServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration-service/src/main/java/com/esports/manager/registration/controllers/InscripcionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration-service/src/main/java/com/esports/manager/registration/exceptions/InscripcionNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration-service/src/main/java/com/esports/manager/registration/models/Inscripcion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration-service/src/main/java/com/esports/manager/registration/models/dto/InscripcionDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration-service/src/main/java/com/esports/manager/registration/repositories/InscripcionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration-service/src/main/java/com/esports/manager/registration/services/InscripcionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration-service/src/main/java/com/esports/registration_service/RegistrationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/registration-service/src/main/java/com/esports/registration_service/RegistrationServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/registration-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result-service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/ranking-service/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result-service/src/main/java/com/esports/manager/result/ResultServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result-service/src/main/java/com/esports/manager/result/exceptions/ResultadoNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result-service/src/main/java/com/esports/manager/result/models/Resultado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result-service/src/main/java/com/esports/manager/result/models/dto/ResultadoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result-service/src/main/java/com/esports/manager/result/repositories/ResultadoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result-service/src/main/java/com/esports/manager/result/services/ResultadoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result-service/src/test/java/com/esports/manager/result/ResultServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanction-service/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/sanction-service/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanction-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/sanction-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanction-service/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanction-service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanction-service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanction-service/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanction-service/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanction-service/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/manager/sanction/SanctionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/sanction_service/SanctionServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/manager/sanction/controllers/SancionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/manager/sanction/exceptions/SancionNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/manager/sanction/models/Sancion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/manager/sanction/models/dto/SancionDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/manager/sanction/repositories/SancionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanction-service/src/main/java/com/esports/manager/sanction/services/SancionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanction-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sanction-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanction-service/src/test/java/com/esports/manager/sanction/SanctionServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/sanction-service/src/test/java/com/esports/sanction_service/SanctionServiceApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="229" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Exception" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lucborquez&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lucborquez/game.git&quot;,
+    &quot;accountId&quot;: &quot;7d769f1b-1f14-4949-8970-185cf8f3cc24&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EI68QxyBkXRNyroD4oGhoZcnb9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AuthServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GameServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MatchServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.RankingServiceApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.RegistrationServiceApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SanctionServiceApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TeamServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TournamentServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UserServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SuperUsuario/Desktop/EsportsArena&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <set>
+              <option value="RankingServiceApplication" />
+              <option value="RegistrationServiceApplication" />
+              <option value="ResultServiceApplication" />
+              <option value="SanctionServiceApplication" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="AuthServiceApplication" value="STOPPED" />
+              <entry key="GameServiceApplication" value="STOPPED" />
+              <entry key="MatchServiceApplication" value="STOPPED" />
+              <entry key="RankingServiceApplication (1)" value="STOPPED" />
+              <entry key="RegistrationServiceApplication (1)" value="STOPPED" />
+              <entry key="SanctionServiceApplication (1)" value="STOPPED" />
+              <entry key="TeamServiceApplication" value="STOPPED" />
+              <entry key="TournamentServiceApplication" value="STOPPED" />
+              <entry key="UserServiceApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MatchServiceApplication">
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esports.auth_service.AuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="game-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esports.game_service.GameServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatchServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="match-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esports.match_service.MatchServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RankingServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="ranking-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esports.ranking_service.RankingServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RankingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="ranking-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esports.manager.ranking.RankingServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="registration-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esports.registration_service.RegistrationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="registration-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esports.manager.registration.RegistrationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResultServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="result-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esports.manager.result.ResultServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SanctionServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="sanction-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esports.sanction_service.SanctionServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SanctionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="sanction-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esports.manager.sanction.SanctionServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="team-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esports.team_service.TeamServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TournamentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="tournament-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esports.tournament_service.TournamentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esports.user_service.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18313db5-08aa-40ca-b561-9da02a1f92fc" name="Changes" comment="" />
+      <created>1779853577130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779853577130</updated>
+      <workItem from="1779853578511" duration="621000" />
+      <workItem from="1779854236869" duration="39000" />
+      <workItem from="1779854314254" duration="9000" />
+      <workItem from="1779854458452" duration="45000" />
+      <workItem from="1779854653629" duration="157000" />
+      <workItem from="1779854842706" duration="12000" />
+      <workItem from="1779855031155" duration="276000" />
+      <workItem from="1779857860971" duration="6079000" />
+      <workItem from="1779896487756" duration="2728000" />
+      <workItem from="1779905394495" duration="447000" />
+      <workItem from="1779915759698" duration="477000" />
+    </task>
+    <task id="LOCAL-00001" summary="Configuración inicial del microservicio registation-service&#10;&#10;- Establecer nombre de aplicación como registration-service&#10;- Definir puerto 8086 para evitar conflictos&#10;- Configurar conexión a base de datos MySQL (db_registration_service)&#10;- Habilitar configuración JPA/Hibernate para actualización automática de esquema">
+      <option name="closed" value="true" />
+      <created>1779862894183</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779862894183</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Crear entidad Inscripcion&#10;&#10;- Definir modelo de entidad para manejar inscripciones a torneos&#10;- Implementar campos: torneoId, equipoId, jugadorId, tipoParticipante, estado y fechaInscripcion&#10;- Utilizar JPA para mapeo a tabla 'inscripciones'&#10;- Integrar Lombok para reducir código repetitivo">
+      <option name="closed" value="true" />
+      <created>1779863231671</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779863231671</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Crear DTOs para inscripción&#10;&#10;- Implementar InscripcionRequestDTO con validaciones (torneoId, tipoParticipante)&#10;- Implementar InscripcionResponseDTO para retornar datos de la inscripción&#10;- Utilizar @Data de Lombok para simplificar el acceso a datos">
+      <option name="closed" value="true" />
+      <created>1779863463461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779863463461</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Crear repositorio de inscripciones&#10;&#10;- Definir InscripcionRepository extendiendo JpaRepository&#10;- Implementar métodos de búsqueda por torneo, jugador y equipo&#10;- Añadir validaciones de existencia (existsBy) para evitar inscripciones duplicadas&#10;- Incluir método para contar inscripciones activas por torneo">
+      <option name="closed" value="true" />
+      <created>1779863627952</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779863627952</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implementar clientes de comunicación externa&#10;&#10;- Crear SancionClient para consultar estado de sanciones mediante RestTemplate&#10;- Crear TorneoClient para obtener información de torneos (estado, cupos)&#10;- Refactorizar DTO TorneoInfoDTO usando Lombok @Data para mejorar mantenibilidad&#10;- Implementar manejo de errores y logging en consultas externas">
+      <option name="closed" value="true" />
+      <created>1779863848866</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1779863848866</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Implementar gestión global de excepciones&#10;&#10;- Crear clase GlobalExceptionHandler con @RestControllerAdvice&#10;- Implementar manejo de errores para:&#10;  - InscripcionNotFoundException (HTTP 404)&#10;  - MethodArgumentNotValidException (HTTP 400, validación de DTOs)&#10;  - RuntimeException general (HTTP 400 para reglas de negocio)&#10;- Añadir logging centralizado para trazabilidad de errores&#10;- Crear excepción personalizada InscripcionNotFoundException">
+      <option name="closed" value="true" />
+      <created>1779863959734</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1779863959734</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Implementar API REST para inscripciones&#10;&#10;- Definir endpoints para:&#10;  - Crear inscripción (POST /api/inscripciones)&#10;  - Consultar todas, por ID, por torneo y por jugador&#10;  - Actualizar estado de inscripción (PUT /api/inscripciones/{id}/estado)&#10;  - Cancelar inscripción (DELETE /api/inscripciones/{id})&#10;- Implementar validación @Valid en el flujo de creación&#10;- Utilizar ResponseEntity para estandarizar respuestas HTTP">
+      <option name="closed" value="true" />
+      <created>1779864184249</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1779864184249</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Configuración inicial del microservicio de partidas&#10;&#10;- Definir nombre de aplicación como match-service&#10;- Configurar puerto 8087&#10;- Configurar base de datos MySQL (db_match_service)&#10;- Añadir endpoints para comunicación con tournament-service (8085) y registration-service (8086)">
+      <option name="closed" value="true" />
+      <created>1779897065779</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1779897065779</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Crear entidad Partida&#10;&#10;- Definir modelo de entidad para gestionar enfrentamientos&#10;- Implementar campos: torneoId, participanteAId, participanteBId, ronda, fechaHora y estado&#10;- Establecer estado por defecto como 'PROGRAMADA'&#10;- Configurar mapeo JPA para tabla 'partidas'">
+      <option name="closed" value="true" />
+      <created>1779897575816</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1779897575816</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Crear DTOs para gestión de partidas&#10;&#10;- Implementar PartidaRequestDTO con validaciones necesarias (torneoId, participantes, ronda, fechaHora)&#10;- Implementar PartidaResponseDTO para la salida de datos de la API&#10;- Utilizar Lombok @Data para reducir código repetitivo">
+      <option name="closed" value="true" />
+      <created>1779897819294</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1779897819294</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Crear repositorio de partidas&#10;&#10;- Definir PartidaRepository extendiendo JpaRepository&#10;- Implementar consultas personalizadas para filtrar por:&#10;  - Torneo específico&#10;  - Torneo y ronda (para gestionar el bracket)&#10;  - Estado actual de la partida&#10;- Añadir validación de existencia para prevenir duplicidad de enfrentamientos">
+      <option name="closed" value="true" />
+      <created>1779897900408</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1779897900408</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Implementar integración con servicios externos&#10;&#10;- Crear InscripcionClient para validar la inscripción de participantes en torneos&#10;- Crear TorneoClient para verificar la existencia de torneos mediante REST&#10;- Implementar DTO interno InscripcionDTO para mapeo de respuestas de registro&#10;- Integrar manejo de errores y logging para mejorar la resiliencia del servicio">
+      <option name="closed" value="true" />
+      <created>1779898065408</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1779898065408</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Implementar gestión global de excepciones&#10;&#10;- Crear GlobalExceptionHandler para capturar errores de forma centralizada&#10;- Implementar manejo de excepciones para:&#10;  - PartidaNotFoundException (HTTP 404)&#10;  - MethodArgumentNotValidException (HTTP 400, validación de DTOs)&#10;  - RuntimeException general (HTTP 400 para reglas de negocio)&#10;- Crear clase PartidaNotFoundException personalizada&#10;- Añadir logging estructurado para trazabilidad">
+      <option name="closed" value="true" />
+      <created>1779898252637</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1779898252637</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Implementar lógica de negocio en PartidaService&#10;&#10;- Implementar método 'crear' con validación de:&#10;  - Existencia del torneo (vía TorneoClient)&#10;  - Inscripción válida de ambos participantes (vía InscripcionClient)&#10;  - Prevención de enfrentamientos duplicados en la misma ronda&#10;- Implementar métodos de consulta (listar todas, por torneo, por id)&#10;- Implementar métodos de modificación (actualizar, cancelar) con validación de estado&#10;- Integrar logging para seguimiento de operaciones">
+      <option name="closed" value="true" />
+      <created>1779898369239</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1779898369239</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Implementar API REST para gestión de partidas&#10;&#10;- Definir endpoints para:&#10;  - Crear, buscar, listar todas y listar por torneo&#10;  - Actualizar datos de partida (PUT)&#10;  - Cancelar partida (DELETE)&#10;- Implementar validaciones @Valid en el flujo de creación y actualización&#10;- Utilizar ResponseEntity para estandarizar las respuestas de la API">
+      <option name="closed" value="true" />
+      <created>1779898453320</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1779898453320</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="se corrigio un error en la creacion de los microservicios ranking-service y sanction-service" />
+    <MESSAGE value="se añadio nuevamente JuegoRequestDTO" />
+    <MESSAGE value="Configuración inicial del microservicio registation-service&#10;&#10;- Establecer nombre de aplicación como registration-service&#10;- Definir puerto 8086 para evitar conflictos&#10;- Configurar conexión a base de datos MySQL (db_registration_service)&#10;- Habilitar configuración JPA/Hibernate para actualización automática de esquema" />
+    <MESSAGE value="Crear entidad Inscripcion&#10;&#10;- Definir modelo de entidad para manejar inscripciones a torneos&#10;- Implementar campos: torneoId, equipoId, jugadorId, tipoParticipante, estado y fechaInscripcion&#10;- Utilizar JPA para mapeo a tabla 'inscripciones'&#10;- Integrar Lombok para reducir código repetitivo" />
+    <MESSAGE value="Crear DTOs para inscripción&#10;&#10;- Implementar InscripcionRequestDTO con validaciones (torneoId, tipoParticipante)&#10;- Implementar InscripcionResponseDTO para retornar datos de la inscripción&#10;- Utilizar @Data de Lombok para simplificar el acceso a datos" />
+    <MESSAGE value="Crear repositorio de inscripciones&#10;&#10;- Definir InscripcionRepository extendiendo JpaRepository&#10;- Implementar métodos de búsqueda por torneo, jugador y equipo&#10;- Añadir validaciones de existencia (existsBy) para evitar inscripciones duplicadas&#10;- Incluir método para contar inscripciones activas por torneo" />
+    <MESSAGE value="Implementar clientes de comunicación externa&#10;&#10;- Crear SancionClient para validar estado de sanción del usuario&#10;- Crear TorneoClient para obtener información y cupos de torneos&#10;- Implementar DTO interno TorneoInfoDTO para mapeo de datos&#10;- Configurar integración mediante RestTemplate con propiedades inyectadas" />
+    <MESSAGE value="Implementar clientes de comunicación externa&#10;&#10;- Crear SancionClient para consultar estado de sanciones mediante RestTemplate&#10;- Crear TorneoClient para obtener información de torneos (estado, cupos)&#10;- Refactorizar DTO TorneoInfoDTO usando Lombok @Data para mejorar mantenibilidad&#10;- Implementar manejo de errores y logging en consultas externas" />
+    <MESSAGE value="Implementar gestión global de excepciones&#10;&#10;- Crear clase GlobalExceptionHandler con @RestControllerAdvice&#10;- Implementar manejo de errores para:&#10;  - InscripcionNotFoundException (HTTP 404)&#10;  - MethodArgumentNotValidException (HTTP 400, validación de DTOs)&#10;  - RuntimeException general (HTTP 400 para reglas de negocio)&#10;- Añadir logging centralizado para trazabilidad de errores&#10;- Crear excepción personalizada InscripcionNotFoundException" />
+    <MESSAGE value="Implementar lógica de negocio en InscripcionService&#10;&#10;- Implementar método 'crear' con validación de:&#10;  - Disponibilidad de torneo (vía TorneoClient)&#10;  - Estado del torneo (ABIERTO)&#10;  - Límite de cupos del torneo&#10;  - Sanciones activas del jugador (vía SancionClient)&#10;  - Duplicidad de inscripciones&#10;- Implementar métodos de consulta (listar todas, por torneo, por jugador, por id)&#10;- Implementar métodos de gestión de estado (actualizarEstado, cancelar)&#10;- Integrar logging para seguimiento de operaciones" />
+    <MESSAGE value="Implementar API REST para inscripciones&#10;&#10;- Definir endpoints para:&#10;  - Crear inscripción (POST /api/inscripciones)&#10;  - Consultar todas, por ID, por torneo y por jugador&#10;  - Actualizar estado de inscripción (PUT /api/inscripciones/{id}/estado)&#10;  - Cancelar inscripción (DELETE /api/inscripciones/{id})&#10;- Implementar validación @Valid en el flujo de creación&#10;- Utilizar ResponseEntity para estandarizar respuestas HTTP" />
+    <MESSAGE value="Configuración inicial del microservicio de partidas&#10;&#10;- Definir nombre de aplicación como match-service&#10;- Configurar puerto 8087&#10;- Configurar base de datos MySQL (db_match_service)&#10;- Añadir endpoints para comunicación con tournament-service (8085) y registration-service (8086)" />
+    <MESSAGE value="Crear entidad Partida&#10;&#10;- Definir modelo de entidad para gestionar enfrentamientos&#10;- Implementar campos: torneoId, participanteAId, participanteBId, ronda, fechaHora y estado&#10;- Establecer estado por defecto como 'PROGRAMADA'&#10;- Configurar mapeo JPA para tabla 'partidas'" />
+    <MESSAGE value="Crear DTOs para gestión de partidas&#10;&#10;- Implementar PartidaRequestDTO con validaciones necesarias (torneoId, participantes, ronda, fechaHora)&#10;- Implementar PartidaResponseDTO para la salida de datos de la API&#10;- Utilizar Lombok @Data para reducir código repetitivo" />
+    <MESSAGE value="Crear repositorio de partidas&#10;&#10;- Definir PartidaRepository extendiendo JpaRepository&#10;- Implementar consultas personalizadas para filtrar por:&#10;  - Torneo específico&#10;  - Torneo y ronda (para gestionar el bracket)&#10;  - Estado actual de la partida&#10;- Añadir validación de existencia para prevenir duplicidad de enfrentamientos" />
+    <MESSAGE value="Implementar integración con servicios externos&#10;&#10;- Crear InscripcionClient para validar la inscripción de participantes en torneos&#10;- Crear TorneoClient para verificar la existencia de torneos mediante REST&#10;- Implementar DTO interno InscripcionDTO para mapeo de respuestas de registro&#10;- Integrar manejo de errores y logging para mejorar la resiliencia del servicio" />
+    <MESSAGE value="Implementar gestión global de excepciones&#10;&#10;- Crear GlobalExceptionHandler para capturar errores de forma centralizada&#10;- Implementar manejo de excepciones para:&#10;  - PartidaNotFoundException (HTTP 404)&#10;  - MethodArgumentNotValidException (HTTP 400, validación de DTOs)&#10;  - RuntimeException general (HTTP 400 para reglas de negocio)&#10;- Crear clase PartidaNotFoundException personalizada&#10;- Añadir logging estructurado para trazabilidad" />
+    <MESSAGE value="Implementar lógica de negocio en PartidaService&#10;&#10;- Implementar método 'crear' con validación de:&#10;  - Existencia del torneo (vía TorneoClient)&#10;  - Inscripción válida de ambos participantes (vía InscripcionClient)&#10;  - Prevención de enfrentamientos duplicados en la misma ronda&#10;- Implementar métodos de consulta (listar todas, por torneo, por id)&#10;- Implementar métodos de modificación (actualizar, cancelar) con validación de estado&#10;- Integrar logging para seguimiento de operaciones" />
+    <MESSAGE value="Implementar API REST para gestión de partidas&#10;&#10;- Definir endpoints para:&#10;  - Crear, buscar, listar todas y listar por torneo&#10;  - Actualizar datos de partida (PUT)&#10;  - Cancelar partida (DELETE)&#10;- Implementar validaciones @Valid en el flujo de creación y actualización&#10;- Utilizar ResponseEntity para estandarizar las respuestas de la API" />
+    <MESSAGE value="se corrigieron errores en los microservicios ranking-service y sanction-service" />
+    <option name="LAST_COMMIT_MESSAGE" value="se corrigieron errores en los microservicios ranking-service y sanction-service" />
+  </component>
+</project>

@@ -23,6 +23,7 @@ public class JuegoController {
     }
 
     //POST -> Crear juegos
+    @PostMapping
     public ResponseEntity<JuegoResponseDTO> crear(@Valid @RequestBody JuegoRequestDTO dto) {
         return ResponseEntity.status(HttpStatus.CREATED).body(juegoService.crear(dto));
     }
