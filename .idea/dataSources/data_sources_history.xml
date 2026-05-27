@@ -88,7 +88,7 @@
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
-      <remarks>C:/Users/SuperUsuario/Desktop/EsportsArena/game-service/src/main/resources/application.properties</remarks>
+      <remarks>C:/Users/jhonb/IdeaProjects/games/game-service/src/main/resources/application.properties</remarks>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/db_game_service?createDatabaseIfNotExist=true</jdbc-url>
       <user-name>root</user-name>
@@ -102,7 +102,7 @@
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
-      <remarks>C:/Users/SuperUsuario/Desktop/EsportsArena/auth-service/src/main/resources/application.properties</remarks>
+      <remarks>C:/Users/jhonb/IdeaProjects/games/auth-service/src/main/resources/application.properties</remarks>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/db_auth_service</jdbc-url>
       <jdbc-additional-properties>
@@ -121,7 +121,7 @@
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
-      <remarks>C:/Users/SuperUsuario/Desktop/EsportsArena/tournament-service/src/main/resources/application.properties</remarks>
+      <remarks>C:/Users/jhonb/IdeaProjects/games/tournament-service/src/main/resources/application.properties</remarks>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/db_tournament_service</jdbc-url>
       <user-name>root</user-name>
@@ -135,7 +135,7 @@
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
-      <remarks>C:/Users/SuperUsuario/Desktop/EsportsArena/team-service/src/main/resources/application.properties</remarks>
+      <remarks>C:/Users/jhonb/IdeaProjects/games/team-service/src/main/resources/application.properties</remarks>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/db_team_service</jdbc-url>
       <jdbc-additional-properties>
@@ -154,7 +154,7 @@
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
-      <remarks>C:/Users/SuperUsuario/Desktop/EsportsArena/registration-service/src/main/resources/application.properties</remarks>
+      <remarks>C:/Users/jhonb/IdeaProjects/games/registration-service/src/main/resources/application.properties</remarks>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/db_registration_service?createDatabaseIfNotExist=true</jdbc-url>
       <user-name>root</user-name>
@@ -167,13 +167,12 @@
       <database-info product="MySQL" version="8.4.3" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-9.7.0 (Revision: 0aade1f13bcc98faf7dda5c02e782481eb291f62)" dbms="MYSQL" exact-version="8.4.3" exact-driver-version="9.7">
         <extra-name-characters>$</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
-        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
-      <remarks>C:/Users/SuperUsuario/Desktop/EsportsArena/sanction-service/src/main/resources/application.properties</remarks>
+      <remarks>C:/Users/jhonb/IdeaProjects/games/sanction-service/src/main/resources/application.properties</remarks>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/db_sanction_service?createDatabaseIfNotExist=true</jdbc-url>
       <jdbc-additional-properties>
@@ -196,7 +195,7 @@
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
-      <remarks>C:/Users/SuperUsuario/Desktop/EsportsArena/ranking-service/src/main/resources/application.properties</remarks>
+      <remarks>C:/Users/jhonb/IdeaProjects/games/ranking-service/src/main/resources/application.properties</remarks>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/db_ranking_service?createDatabaseIfNotExist=true</jdbc-url>
       <user-name>root</user-name>
@@ -210,7 +209,7 @@
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
-      <remarks>C:/Users/SuperUsuario/Desktop/EsportsArena/user-service/src/main/resources/application.properties</remarks>
+      <remarks>C:/Users/jhonb/IdeaProjects/games/user-service/src/main/resources/application.properties</remarks>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/db_user_service</jdbc-url>
       <user-name>root</user-name>
