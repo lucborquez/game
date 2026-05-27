@@ -69,7 +69,7 @@ public class RankingService {
         ranking.setPosicion(dto.getPosicion());
         return rankingRepository.save(ranking);
     }
-
+    //12
     // Reinicia el ranking de un torneo
     public Ranking reiniciarRanking(Long id) {
         log.info("Reiniciando ranking con ID: {}", id);
