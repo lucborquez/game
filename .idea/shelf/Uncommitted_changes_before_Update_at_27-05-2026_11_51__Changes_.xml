@@ -1,0 +1,13 @@
+<changelist name="Uncommitted_changes_before_Update_at_27-05-2026_11_51_[Changes]" date="1779897076891" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27-05-2026_11_51_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 27-05-2026 11:51 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="ranking-service/gradle/wrapper/gradle-wrapper.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="esportsArena.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="sanction-service/gradle/wrapper/gradle-wrapper.jar" />
+  </binary>
+</changelist>
