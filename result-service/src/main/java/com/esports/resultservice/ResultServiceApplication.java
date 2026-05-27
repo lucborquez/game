@@ -1,4 +1,4 @@
-package com.esports.manager.result;
+package com.esports.resultservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ResultServiceApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(ResultServiceApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(ResultServiceApplication.class, args);
+	}
 
 }
