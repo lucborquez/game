@@ -1,15 +1,27 @@
 # eSports Arena Manager
 
-eSports Arena Manager es una plataforma backend distribuida basada en microservicios, contruida para gestionar torneos de videjuegos
-competitivos de forma escalable y modular. Abarca el ciclo  completo: desde la administracion de jugadores y equipo hasta la generacion 
-de rankings, sanciones y notificaciones en tiempo real.
+eSports Arena Manager es una plataforma backend orientada a la administración de torneos competitivos de videojuegos.
+El sistema fue desarrollado bajo una arquitectura de microservicios utilizando Spring Boot, permitiendo separar responsabilidades y mantener una solución modular, escalable y mantenible.
+
+El objetivo principal del proyecto es gestionar torneos de eSports mediante servicios independientes encargados de usuarios, equipos, partidas, resultados, rankings, sanciones y procesos relacionados al flujo competitivo.
+
+La solución fue diseñada aplicando buenas prácticas de desarrollo backend, persistencia relacional, validaciones, manejo de excepciones y comunicación REST entre microservicios.
 
 ## Integrantes
 Lucas Borquez
 Jhon Olivares
 
-## Tecnologías
-java 26
+## Arquitectura General del Sistem
+La solución fue diseñada bajo una arquitectura de microservicios independientes, donde cada servicio posee:
+
+1.Responsabilidad específica
+ 2.Base de datos independiente
+ 3.CRUD propio
+ 4.Endpoints REST
+ 5.Reglas de negocio
+ 6.Validaciones
+ 7.Manejo de excepciones
+ 8.Comunicación REST con otros servicios
 
 
 ## Microservicios
@@ -26,8 +38,23 @@ java 26
 |sanction-service|8090|	sanction_service_db|	Sanciones y sistema de Fair Play|---cambiado
 |auth-service| 8083|auth-service_db|Administración de perfiles de usuario y roles del sistema.|cambiado---
 
-## Como ejecuturar
-(pendiente)
+## Tecnologias usadas
+## Backend
+1. Java 21
+2. Spring boot
+3. Spring Data JPA
+4. Hibernate
+5. Maven
+6. Bean Validation
+7. REST API
+
+## BASE DE DATOS
+Para la persistencia se utilizó:
+1. MySQL
+2. Laragon
+3. HeidiSQL
+Laragon fue utilizado como entorno local de desarrollo debido a su facilidad de configuración, integración rápida con MySQL y administración eficiente de servicios locales.
+HeidiSQL fue utilizado para administrar las bases de datos, permitiendo visualizar tablas, ejecutar consultas SQL y verificar relaciones de manera más profesional y práctica durante el desarrollo.
 
 ## Flujo principal
 1. Crear videojuego        -> game-service
@@ -39,10 +66,12 @@ java 26
 7. Crear partida           -> match-service  (valida inscripciones)
 8. Registrar resultado     -> result-service
 9. Consultar ranking       -> ranking-service
-10. Crear sancion(si es neseario)
+10. Registrar sanción      ->sanction-service
+(bloquea futuras inscripciones si la sanción está activa)
 
 
-## 1. Capa de Modelo y Anotaciones
+
+## . Capa de Modelo y Anotaciones
 Se utiliza el ecosistema de Spring Data JPA y Lombok para maximizar la productividad y garantizar la integridad de los datos:
 
 Lombok: @Data, @AllArgsConstructor, @NoArgsConstructor, @Builder y @Getter/@Setter para reducir el código redundante.
@@ -50,5 +79,15 @@ Lombok: @Data, @AllArgsConstructor, @NoArgsConstructor, @Builder y @Getter/@Sett
 JPA/Hibernate: @Entity, @Table, @Id, @GeneratedValue(strategy = GenerationType.IDENTITY) y @Column para el mapeo relacional preciso.
 
 Jakarta Validation: @NotBlank, @NotNull, @Positive y @Size en los DTOs para la validación de entrada de datos.
-## Regla de negocio
+## Patrón Arquitectónico CSR
+Todos los microservicios fueron estructurados utilizando el patrón:
 
+Controller → manejo de endpoints REST
+Service → lógica de negocio
+Repository → acceso a datos
+Model → entidades JPA
+DTO → validaciones y transferencia de datos
+
+## Conclusión
+El proyecto eSports Arena Manager permitió aplicar conocimientos relacionados con arquitectura distribuida basada en microservicios, persistencia relacional,
+desarrollo REST, validaciones, manejo de excepciones y comunicación entre servicios.
