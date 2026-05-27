@@ -1,4 +1,4 @@
-package com.esports.manager.match;
+package com.esports.match_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MatchServiceApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(MatchServiceApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(MatchServiceApplication.class, args);
+	}
 
 }
