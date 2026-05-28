@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18313db5-08aa-40ca-b561-9da02a1f92fc" name="Changes" comment="se corrigieron errores en los microservicios ranking-service y sanction-service">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="18313db5-08aa-40ca-b561-9da02a1f92fc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,55 +78,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.AuthServiceApplication.executor": "Run",
-    "Spring Boot.GameServiceApplication.executor": "Run",
-    "Spring Boot.MatchServiceApplication.executor": "Run",
-    "Spring Boot.RankingServiceApplication (1).executor": "Run",
-    "Spring Boot.RegistrationServiceApplication (1).executor": "Run",
-    "Spring Boot.ResultServiceApplication (1).executor": "Run",
-    "Spring Boot.SanctionServiceApplication (1).executor": "Run",
-    "Spring Boot.TeamServiceApplication.executor": "Run",
-    "Spring Boot.TournamentServiceApplication.executor": "Run",
-    "Spring Boot.UserServiceApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/SuperUsuario/Desktop/EsportsArena",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AuthServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GameServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MatchServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.RankingServiceApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.RegistrationServiceApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ResultServiceApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SanctionServiceApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TeamServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TournamentServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UserServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SuperUsuario/Desktop/EsportsArena&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql_aurora"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql_aurora&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -162,6 +160,7 @@
               <entry key="MatchServiceApplication" value="STOPPED" />
               <entry key="RankingServiceApplication (1)" value="STOPPED" />
               <entry key="RegistrationServiceApplication (1)" value="STOPPED" />
+              <entry key="ResultServiceApplication (1)" value="STOPPED" />
               <entry key="SanctionServiceApplication (1)" value="STOPPED" />
               <entry key="TeamServiceApplication" value="STOPPED" />
               <entry key="TournamentServiceApplication" value="STOPPED" />
@@ -303,7 +302,8 @@
       <workItem from="1779857860971" duration="6079000" />
       <workItem from="1779896487756" duration="2728000" />
       <workItem from="1779905394495" duration="447000" />
-      <workItem from="1779915759698" duration="1777000" />
+      <workItem from="1779915759698" duration="3699000" />
+      <workItem from="1779928636965" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="Configuración inicial del microservicio registation-service&#10;&#10;- Establecer nombre de aplicación como registration-service&#10;- Definir puerto 8086 para evitar conflictos&#10;- Configurar conexión a base de datos MySQL (db_registration_service)&#10;- Habilitar configuración JPA/Hibernate para actualización automática de esquema">
       <option name="closed" value="true" />
@@ -433,7 +433,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779916545662</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Implementar CRUD de resultados con validacion y comunicacion con match-service&#10;&#10;- Modelo Resultado con @PrePersist para fecha y estado inicial&#10;- DTO de request con Bean Validation (@NotNull, @Min)&#10;- Repository con busqueda por partidaId&#10;- Service con reglas de negocio: validar existencia de partida via MatchClient,&#10;  no duplicar resultado por partida, bloquear modificacion de resultado VALIDADO&#10;- Controller REST con endpoints: POST, GET por ID, GET por partida, PUT, PATCH anular&#10;- GlobalExceptionHandler para IllegalArgumentException, IllegalStateException y validaciones&#10;- MatchClient con RestTemplate para comunicacion con match-service (puerto 8087)&#10;- Logs con SLF4J en operaciones clave">
+      <option name="closed" value="true" />
+      <created>1779917798510</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1779917798510</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,6 +468,7 @@
     <MESSAGE value="Implementar lógica de negocio en PartidaService&#10;&#10;- Implementar método 'crear' con validación de:&#10;  - Existencia del torneo (vía TorneoClient)&#10;  - Inscripción válida de ambos participantes (vía InscripcionClient)&#10;  - Prevención de enfrentamientos duplicados en la misma ronda&#10;- Implementar métodos de consulta (listar todas, por torneo, por id)&#10;- Implementar métodos de modificación (actualizar, cancelar) con validación de estado&#10;- Integrar logging para seguimiento de operaciones" />
     <MESSAGE value="Implementar API REST para gestión de partidas&#10;&#10;- Definir endpoints para:&#10;  - Crear, buscar, listar todas y listar por torneo&#10;  - Actualizar datos de partida (PUT)&#10;  - Cancelar partida (DELETE)&#10;- Implementar validaciones @Valid en el flujo de creación y actualización&#10;- Utilizar ResponseEntity para estandarizar las respuestas de la API" />
     <MESSAGE value="se corrigieron errores en los microservicios ranking-service y sanction-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="se corrigieron errores en los microservicios ranking-service y sanction-service" />
+    <MESSAGE value="Implementar CRUD de resultados con validacion y comunicacion con match-service&#10;&#10;- Modelo Resultado con @PrePersist para fecha y estado inicial&#10;- DTO de request con Bean Validation (@NotNull, @Min)&#10;- Repository con busqueda por partidaId&#10;- Service con reglas de negocio: validar existencia de partida via MatchClient,&#10;  no duplicar resultado por partida, bloquear modificacion de resultado VALIDADO&#10;- Controller REST con endpoints: POST, GET por ID, GET por partida, PUT, PATCH anular&#10;- GlobalExceptionHandler para IllegalArgumentException, IllegalStateException y validaciones&#10;- MatchClient con RestTemplate para comunicacion con match-service (puerto 8087)&#10;- Logs con SLF4J en operaciones clave" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementar CRUD de resultados con validacion y comunicacion con match-service&#10;&#10;- Modelo Resultado con @PrePersist para fecha y estado inicial&#10;- DTO de request con Bean Validation (@NotNull, @Min)&#10;- Repository con busqueda por partidaId&#10;- Service con reglas de negocio: validar existencia de partida via MatchClient,&#10;  no duplicar resultado por partida, bloquear modificacion de resultado VALIDADO&#10;- Controller REST con endpoints: POST, GET por ID, GET por partida, PUT, PATCH anular&#10;- GlobalExceptionHandler para IllegalArgumentException, IllegalStateException y validaciones&#10;- MatchClient con RestTemplate para comunicacion con match-service (puerto 8087)&#10;- Logs con SLF4J en operaciones clave" />
   </component>
 </project>
