@@ -1,0 +1,70 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      server:
+        webmvc:
+          # Cada ruta: si la URL entrante coincide con 'predicates', el gateway la reenvia
+          # a 'uri'. lb:// significa "busca este nombre en Eureka y balancea la carga"
+          # (en vez de localhost:8081, localhost:8082, etc. fijos).
+          routes:
+            - id: auth-service
+              uri: lb://auth-service
+              predicates:
+                - Path=/api/auth/**
+
+            - id: user-service
+              uri: lb://user-service
+              predicates:
+                - Path=/api/usuarios/**
+
+            - id: game-service
+              uri: lb://game-service
+              predicates:
+                - Path=/api/juegos/**
+
+            - id: team-service
+              uri: lb://team-service
+              predicates:
+                - Path=/api/equipos/**
+
+            - id: tournament-service
+              uri: lb://tournament-service
+              predicates:
+                - Path=/api/torneos/**
+
+            - id: registration-service
+              uri: lb://registration-service
+              predicates:
+                - Path=/api/inscripciones/**
+
+            - id: match-service
+              uri: lb://match-service
+              predicates:
+                - Path=/api/partidas/**
+
+            - id: result-service
+              uri: lb://result-service
+              predicates:
+                - Path=/api/resultados/**
+
+            - id: ranking-service
+              uri: lb://ranking-service
+              predicates:
+                - Path=/api/rankings/**
+
+            - id: sanction-service
+              uri: lb://sanction-service
+              predicates:
+                - Path=/api/sanciones/**
+
+# Punto de entrada unico: todo el trafico del frontend/Postman entra por aqui (puerto 8080).
+server:
+  port: 8080
+
+# El gateway tambien es cliente Eureka, para poder resolver los lb://
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
